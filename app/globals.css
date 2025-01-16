@@ -7,14 +7,29 @@
   --foreground: #171717;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+    /* FONTS */
+    .font-fig-tree-text-1 {
+        @apply font-fig-tree font-extrabold text-2xl leading-[150%] tracking-normal;
+    }
+
+	.font-fig-tree-text-2 {
+        @apply font-fig-tree font-medium text-base leading-[150%] tracking-normal;
+    }
+
+	.font-fig-tree-text-3 {
+        @apply font-fig-tree font-medium text-sm leading-[150%] tracking-normal;
+    }
+
+	.font-fig-tree-text-4 {
+        @apply font-fig-tree font-extrabold text-sm leading-[150%] tracking-normal;
+    }
+
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: Arial, Helvetica, sans-serif;
 }

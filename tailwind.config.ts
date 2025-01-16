@@ -16,6 +16,14 @@ const config: Config = {
         "app-gray-500": "#6B6B6B",
         "pure-white": "#FFFFFF"
       },
+      fontFamily: {
+        "geist-sans": "var(--font-geist-sans)",
+        "geist-mono": "var(--font-geist-mono)",
+        "fig-tree": "var(--font-fig-tree)"
+      },
+      boxShadow: {
+        'custom-black': '8px 8px 0px 0px #000000', 
+      },
     },
   },
   plugins: [],
