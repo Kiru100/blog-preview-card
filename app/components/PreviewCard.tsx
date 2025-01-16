@@ -6,7 +6,7 @@ import image_avatar from '../assets/images/image-avatar.webp';
 
 function PreviewCard() {
     return (
-        <main className="bg-pure-white max-w-sm p-6 w-full rounded-[20px] outline outline-1 outline-app-gray-950 shadow-custom-black">
+        <main className="bg-pure-white max-w-sm p-6 w-full mx-6 rounded-[20px] outline outline-1 outline-app-gray-950 shadow-custom-black">
             <Image
                 priority
                 src={illustration}
