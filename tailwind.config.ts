@@ -9,9 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        yellow: "#F4D04E",
+        "background": "var(--background)",
+        "foreground": "var(--foreground)",
+        "app-yellow": "#F4D04E",
+        "app-gray-950": "#111111",
+        "app-gray-500": "#6B6B6B",
+        "pure-white": "#FFFFFF"
+      },
+      fontFamily: {
+        "geist-sans": "var(--font-geist-sans)",
+        "geist-mono": "var(--font-geist-mono)",
+        "fig-tree": "var(--font-fig-tree)"
+      },
+      boxShadow: {
+        'custom-black': '8px 8px 0px 0px #000000', 
       },
     },
   },
